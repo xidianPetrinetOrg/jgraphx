@@ -1060,7 +1060,7 @@ public class GraphConfigDialog extends JDialog
 
 						mxTraversal.bfs(aGraph, startVertex, new mxICellVisitor()
 						{
-							@Override
+							// djt @Override
 							// simple visitor that prints current vertex
 							public boolean visit(Object vertex, Object edge)
 							{
@@ -1090,7 +1090,7 @@ public class GraphConfigDialog extends JDialog
 
 						mxTraversal.dfs(aGraph, startVertex, new mxICellVisitor()
 						{
-							@Override
+							//djt @Override
 							// simple visitor that prints current vertex
 							public boolean visit(Object vertex, Object edge)
 							{
@@ -1120,7 +1120,7 @@ public class GraphConfigDialog extends JDialog
 
 						mxTraversal.bfs(aGraph, startVertex, new mxICellVisitor()
 						{
-							@Override
+							//djt @Override
 							// simple visitor that prints current vertex
 							public boolean visit(Object vertex, Object edge)
 							{
@@ -1150,7 +1150,7 @@ public class GraphConfigDialog extends JDialog
 
 						mxTraversal.dfs(aGraph, startVertex, new mxICellVisitor()
 						{
-							@Override
+							//djt  @Override
 							// simple visitor that prints current vertex
 							public boolean visit(Object vertex, Object edge)
 							{
@@ -1272,7 +1272,7 @@ public class GraphConfigDialog extends JDialog
 						{
 							mxTraversal.dijkstra(aGraph, startVertex, endVertex, new mxICellVisitor()
 							{
-								@Override
+								//djt @Override
 								// simple visitor that prints current vertex
 								public boolean visit(Object vertex, Object edge)
 								{
