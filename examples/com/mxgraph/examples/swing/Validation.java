@@ -87,6 +87,7 @@ public class Validation extends JFrame
 
 		final mxGraphComponent graphComponent = new mxGraphComponent(graph);
 		graph.setMultigraph(false);
+		graph.setAllowDanglingEdges(false); // 设置true: 鼠标掠过，按住左键，可以拖出一条悬挂边;
 		graphComponent.setConnectable(true);
 		graphComponent.setToolTips(true);   // 提示，顶点的value
 
