@@ -87,9 +87,8 @@ public class Validation extends JFrame
 
 		final mxGraphComponent graphComponent = new mxGraphComponent(graph);
 		graph.setMultigraph(false);
-		graph.setAllowDanglingEdges(false);
 		graphComponent.setConnectable(true);
-		graphComponent.setToolTips(true);
+		graphComponent.setToolTips(true);   // 提示，顶点的value
 
 		// Enables rubberband selection
 		new mxRubberband(graphComponent);
