@@ -995,6 +995,11 @@ public class mxConstants
 	 * SHAPE_ELLIPSE
 	 */
 	public static final String SHAPE_ELLIPSE = "ellipse";
+	
+	/**
+	 * SHAPE_TOKEN_ELLIPSE,椭圆内显示token数量
+	 */
+	public static final String SHAPE_TOKEN_ELLIPSE = "tokenEllipse";
 
 	/**
 	 * SHAPE_DOUBLE_RECTANGLE

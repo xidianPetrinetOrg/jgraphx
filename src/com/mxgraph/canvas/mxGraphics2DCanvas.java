@@ -42,6 +42,7 @@ import com.mxgraph.shape.mxRectangleShape;
 import com.mxgraph.shape.mxRhombusShape;
 import com.mxgraph.shape.mxStencilRegistry;
 import com.mxgraph.shape.mxSwimlaneShape;
+import com.mxgraph.shape.mxTokenEllipseShape;
 import com.mxgraph.shape.mxTriangleShape;
 import com.mxgraph.swing.util.mxSwingConstants;
 import com.mxgraph.util.mxConstants;
@@ -95,6 +96,7 @@ public class mxGraphics2DCanvas extends mxBasicCanvas
 		putShape(mxConstants.SHAPE_DOUBLE_RECTANGLE, new mxDoubleRectangleShape());
 		putShape(mxConstants.SHAPE_DOUBLE_ELLIPSE, new mxDoubleEllipseShape());
 		putShape(mxConstants.SHAPE_ELLIPSE, new mxEllipseShape());
+		putShape(mxConstants.SHAPE_TOKEN_ELLIPSE, new mxTokenEllipseShape());
 		putShape(mxConstants.SHAPE_HEXAGON, new mxHexagonShape());
 		putShape(mxConstants.SHAPE_IMAGE, new mxImageShape());
 		putShape(mxConstants.SHAPE_LABEL, new mxLabelShape());
