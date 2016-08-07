@@ -14,7 +14,6 @@ import com.mxgraph.view.mxGraph;
 
 /**
  * 通过insertVertex的value传递对象，使用Element接口。
- * 可以消除，UserObject2出现的问题：当拖动cell时，有异常java.io.NotSerializableException。
  * graph.insertVertex(parent, null, Element对象,20, 20, 80,30);
  *
  */
