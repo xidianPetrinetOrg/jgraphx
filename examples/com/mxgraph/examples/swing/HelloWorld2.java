@@ -33,6 +33,8 @@ public class HelloWorld2 extends JFrame
 		graph.setCellsMovable(true);
 		//graph.setCellsLocked(true);
 		graph.setCellsResizable(false);
+		graph.setVertexLabelsMovable(true);
+		graph.setEdgeLabelsMovable(true);
 		
 		graph.setAllowDanglingEdges(false); // 设置true: 鼠标掠过，按住左键，可以拖出一条悬挂边;
 		
