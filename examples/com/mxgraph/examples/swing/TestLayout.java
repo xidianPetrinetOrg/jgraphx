@@ -1,12 +1,11 @@
 package com.mxgraph.examples.swing;
 
 import javax.swing.JFrame;
+import javax.swing.SwingConstants;
 
 import com.mxgraph.layout.hierarchical.mxHierarchicalLayout;
-import com.mxgraph.model.mxCell;
 import com.mxgraph.swing.mxGraphComponent;
 import com.mxgraph.util.mxConstants;
-import com.mxgraph.util.mxEventSource.mxIEventListener;
 import com.mxgraph.util.mxPoint;
 import com.mxgraph.util.mxRectangle;
 import com.mxgraph.view.mxGraph;
@@ -45,6 +44,8 @@ public class TestLayout extends JFrame
 		mxHierarchicalLayout layout = new mxHierarchicalLayout(graph);
 		// cell的边界是否包含Label，false，利于对其关系仅与几何形状有关，比较整齐。但是，边界处的label有可能看不见，如，label在vertex的左边时，最左边的label就可能看不见。
 		layout.setUseBoundingBox(false);
+		// 方向
+		layout.setOrientation(SwingConstants.EAST);  // default: SwingConstants.NORTH
 		// 计算
 		layout.execute(parent);
 		
